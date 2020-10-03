@@ -1,0 +1,45 @@
+body {
+    background-color: rgb(247, 247, 247);
+}
+/* Flexbox */
+/* read or view something about flexbox */
+
+.container-fluid {
+    display: flex;
+}
+
+.section {
+    flex: 1;
+    /* display: inline-block;
+    width: 49.45%; */
+    /* float: */
+}
+
+#btnT {
+    font-size: 20px;
+    color: rgb(83, 92, 70);
+    cursor: pointer;
+}
+
+.control {
+    display: block;
+    margin: 10px;
+}
+
+#secForm {
+    background-color: rgb(251, 255, 254);
+}
+
+form {
+    text-align: center;
+}
+
+input, textarea {
+    border: 1px solid rgb(199, 199, 199);
+    border-radius: 3px;
+    padding: 3px;
+}
+
+.hide {
+    display: none;
+}
